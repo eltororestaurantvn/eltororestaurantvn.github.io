@@ -1446,9 +1446,11 @@ img.logo {
     padding-top: 2px;
     padding-left: 4px;
     overflow: hidden;}
+
+
+.fixed-left{transform:scale(0.2);}
 }
     /*het css menu cho di dong*/
-
 
 
 
