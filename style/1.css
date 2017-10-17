@@ -1082,7 +1082,7 @@ a.btn.btn-outline-info.submit {
 }
 
 .form-group {
-    width: 166px;
+    width: 100%;
 }
 
 .pro {
@@ -1435,7 +1435,7 @@ img.logo {
     margin-right: -40px;
 }
 .event {
-    height: 600px;
+    height: 375px;
 }
 
 .button.more2{width: 30px;
