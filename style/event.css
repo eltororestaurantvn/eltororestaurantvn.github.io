@@ -1,0 +1,324 @@
+*{margin: 0; padding: 0;}
+
+a.btn.btn-outline-danger.nut2 {
+    border: 1px solid black;
+    color: black;
+    transition: 0.4s;
+}
+
+a.btn.btn-outline-danger.nut2:hover {
+    background: white;
+}
+
+.nut {
+    position: absolute;
+    z-index: 3;
+    top: 63%;
+    left: 50%;
+    margin-left: -29px;
+    color: white;
+    border: 1px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 2px;
+}
+
+.nenden {
+    width: 1132px;
+    height: 494px;
+    background: #00000030;
+}
+
+img.carot {
+    position: relative;
+    top: -38px;
+    background: white;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.khoivien {
+    margin-top: 120px;
+}
+
+.vien {
+    width: 750px;
+    height: 3px;
+    background: #cbcbcb;
+    margin: auto;
+}
+
+
+.khoianh1 {
+    margin-top: 58px;
+}
+
+
+
+
+/*CSS cho menu*/
+.menutren {
+    width: 100%;
+    transition:0.4s;
+}
+.thanhmenu {
+    background: #2c2c2c!important;
+    color: #cbcbcb;
+}
+ul.nav.navbar-nav.tieudekhoi li:hover {
+    border:1px solid white;
+    border-radius: 2px;
+}
+ul.nav.navbar-nav.tieudekhoi li a:hover {
+    color: white;
+}
+a.navbar-brand.khoilogo {
+    margin-left: 73px;
+    margin-right: 262px;
+}
+ul.nav.navbar-nav.tieudekhoi li {
+    margin-top: 18px;
+    padding: 3px 10px;
+    transition:0.4s;
+    border: 1px solid transparent;
+}
+ul.nav.navbar-nav.tieudekhoi li a {
+    color: #cbcbcb;
+    font-family: 'Alice', serif;
+    font-size: 14px;
+}
+
+
+.icontren i {
+    margin-right: 15px;
+}
+
+.signup {
+    float: left;
+    margin-right: 27px;
+    font-family: alice;
+    font-size: 16px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    transition: 0.4s;
+    margin-top: 18px;
+    cursor: pointer;
+   
+}
+
+.signup:hover {
+    border: 1px solid gray;
+}
+
+.signin {
+    float: left;
+    margin-right: 27px;
+    font-family: alice;
+    font-size: 16px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    transition: 0.4s;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.signin:hover {
+    border: 1px solid gray;
+}
+.iconduoi i {margin-top: 26px;margin-right: 0;}
+
+/*het css cho menu*/
+
+.phude {
+    font-family: roboto;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.tieude {
+    font-family: 'Alice', serif;
+    font-size: 32px;
+}
+
+.khoitieude {
+    margin-top: 85px;
+} 
+.khoianh2 {
+	width: 1132px;
+	height: 494px;
+	margin:auto;
+	background-image: url(../images/birday.png);
+	position: relative;
+	margin-bottom: 100px;
+}
+.map {
+	width: 1132px;
+	height: 460px;
+	margin:auto;
+	background-image: url(../images/map.png);
+	position: relative;
+}
+.hienra {
+	opacity: 0;
+	visibility: hidden;
+	transition:0.4s;
+}
+.khoianh2:hover .hienra {
+	opacity: 1;
+	visibility: visible;
+}
+.khoianh3:hover .hienra {
+	opacity: 1;
+	visibility: visible;
+}
+.khoianh3 {
+	width: 1132px;
+	height: 494px;
+	margin:auto;
+	background-image: url(images/halloween.png);
+	position: relative;
+	margin-bottom: 155px;
+}
+/*footer*/
+.footerer{position: relative;margin-top: 160px;}
+.dathang{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 50%;
+    transform :translate(-50%,-50%);
+
+    width: 790px;height: 155px;
+    background-color: #DFDFDF;
+}
+.dathang .phantrai{
+    position: absolute;z-index: 101;
+
+    height: 155px;
+    width: 192px;
+    background-color: #333333;
+    padding-left: 25px;
+    padding-top: 13px;
+}
+
+.dathang .phantrai span{
+    display: block;
+    font-family: 'roboto',sans-serif;
+    font-size: 17px;
+    color: #767676;
+    font-weight: 600;
+}
+
+.dathang .phantrai span:nth-child(2){
+    color:#fff;
+}
+.dathang .phantrai span:nth-child(3){
+    color:#fff;
+}
+
+.dathang .phangiua{
+    position: absolute;z-index: 101;left:192px;
+
+    width: 386px;height: 155px;
+    padding-left: 120px;
+    padding-top: 35px;
+    background-image: url(../images/iconphone.png);
+    background-repeat: no-repeat;
+    background-position: 74px 35px;
+
+    border-right: 2px solid #767676;
+}
+.dathang .phangiua span{
+    position: relative;top: -5px;
+    color: #db4f44;
+    font-family: 'roboto',sans-serif;
+    font-size: 16px;
+}
+.dathang .phangiua h4{font-size: 21px;}
+.dathang .or{
+    width: 16px;
+    height: 16px;
+
+    position: absolute;
+    left: 577px;top: 50%;
+    transform:translate(-50%,-50%);
+
+    background-color: #767676;
+    border-radius: 50%;
+    text-align: center;
+}
+.dathang .or p{color:white;font-size: 10px;}
+
+.dathang .phanphai{
+    width: 212px;
+    height: 155px;
+    position: absolute;z-index: 101;
+    left: 577px;
+}
+.dathang .phanphai .button{ 
+    width: 110px;height: 35px;
+
+    position: absolute;
+    left: 50%;top: 50%;
+    transform:translate(-50%,-50%);
+    font-size: 12px;
+}
+
+
+#map{
+    width: 100%;
+    height: 462px;
+    background-color: darkviolet;
+}
+
+
+.footer {
+    width: 100%;
+    height: 278px;
+    background: #222222;
+    margin: auto;
+    padding-top: 40px;
+    color:#767676;
+}
+.cus {
+    font-family: alice;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: #c5c5c5;
+}
+.duoi-3 {
+    height: 23px;
+    margin-top: 10px;
+    color: #767676;
+}
+.duoi-3 i.fa{
+    float: left;
+    font-size: 23px;
+    margin-right: 13px;
+    color: brown;
+}
+
+.iconfoot {
+    position: relative;
+    left: 50%;
+    transform:translateX(-20%);
+    color: #c5c5c5;
+}
+
+.iconfoot li {
+    float: left;
+    margin-left: 5px;
+    list-style: none;
+}
+
+.spa{color: #c5c5c5;font-family: 'alice',serif;font-size: 12px;}
+
+.ent{    font-size: 16px;
+    margin-bottom: 16px;}
+.bottomlefty{padding-right: 0;}
+.bottomlefty .button{font-size: 12px;padding-top: 10px;}

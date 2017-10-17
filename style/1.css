@@ -1,0 +1,1428 @@
+*{margin: 0; padding: 0;}
+
+/*fixed-side*/
+
+.fixed-left{
+    position: fixed;
+    left: 0;top:50%;transform:translateY(-50%);
+    width: 55px;height: 185px;
+    text-align: center;
+    opacity: 0;
+    transition:0.4s;
+}
+
+.fixed-left a{
+    display: block;
+    color: #cbcbcb;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.fixed-left i{font-size: 24px;}
+
+.fixed-right{
+    position: fixed;z-index: 150;   
+    right: 3%;bottom: 10%;
+
+    width: 60px;height: 60px;
+    background-color:rgb(219,79,68); 
+
+    color: white;border-radius: 50%;
+    text-align: center;
+    padding-top: 0px;
+    transition:0.4s;
+    opacity: 0;
+}
+
+.fixed-right i{font-size: 54px;}
+
+.opacity-1{opacity: 1;transition:0.4s;}
+img.monan-comple {
+    transition: 0.4s;
+}
+
+.khoitrai ul {
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.khoitrai:hover ul {
+    opacity: 1;
+}
+
+img.monan {
+    transition: 0.4s;
+}
+
+.contact {
+    background: #f9f9f9;
+    margin-top: 23px;
+}
+
+.button{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid rgb(118,118,118);
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+
+
+    color: rgb(118,118,118);
+    background-image: none;
+    background-color: transparent;
+    /*border-color: #0275d8;*/
+    text-decoration: none;
+    
+    transition:0.4s;
+    
+}
+.btn-outline-info{
+        color: rgb(219,79,68);
+    border-color:rgb(219,79,68); 
+}
+.btn-outline-info:hover{
+        color: #fff;
+    background-color: rgb(219,79,68);
+    border-color: rgb(219,79,68);
+}
+
+.button:hover{
+    text-decoration: none;
+    color: rgb(219,79,68);
+    border-color:rgb(219,79,68); 
+    transition:0.2s;
+}
+
+.button.more2{width: 100px;height: 30px;font-size: 10px;text-align: center;margin-top: 5px;}
+/*CSS cho menu*/
+.navbar2{padding: 0; width: 1450px;}
+
+
+ul.nav.navbar-nav.tieudekhoi li a {
+    font-size: 13px;
+    color: #cbcbcb;
+    padding-bottom: 0;
+    cursor:default;
+    padding-top: 11px;
+}
+
+
+ul.nav.navbar-nav.tieudekhoi li {
+    width: 100px;height: 45px;
+    font-size: 12px;
+    margin-right: 15px;margin-left: 0;
+    text-align: center;
+    margin-top: 18px;
+    transition:0.4s; 
+
+    border:1px solid transparent;
+}
+
+
+div.navbar-brand.khoilogo {
+    margin-left: 42px;  
+    /* margin-right: 240px; */
+    text-align: center;
+}
+
+.thanhmenu {
+    background: #2c2c2c!important;
+    color: #cbcbcb;
+}
+ul.nav.navbar-nav.tieudekhoi li:hover {
+    border:1px solid white;
+    border-radius: 2px;
+}
+ul.nav.navbar-nav.tieudekhoi li a:hover {
+    color: white;
+}
+
+ol.cacnuttron li {
+    background-color: #db4f44!important;
+}
+
+.iconduoi{
+    float:right;
+    padding-top: 25px;
+}
+
+.iconduoi span{display: inline-block;padding-left: 30px;font-family: 'roboto',sans-serif;font-size: 14px;}
+
+.iconduoi a{text-decoration: none;color:#cbcbcb;}
+.iconduoi a:hover{color:white;}
+
+#fix-one{
+    top:-100px;
+}
+
+.dichxuong{
+    transform:translateY(100px);
+    transition-delay:0;
+    transition:0.7s;
+}
+.dichlen{
+    transform:translateY(-100px);
+    transition:0.7s;
+    transition-delay:0;
+}
+
+.huhu{position: relative;border-bottom: none;}
+.huhuhu{
+    display: none;
+    position: absolute;
+    top:26px;
+    left: 0;
+
+    width: 100px;
+    margin-left: -1px;
+    margin-top: 17px;
+    background: #2c2c2c!important;
+    color: #cbcbcb;
+    border:1px solid white;
+    border-top: none;
+    height:0;opacity: 0;
+}
+.huhuhu li{
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+
+
+
+
+.midicon{
+    padding-top: 60px;
+    text-align: center;
+}
+.cacicon{text-align: center;float: right;}
+
+.midicon img{
+    width: 60px;
+    padding-bottom:27px;
+}
+/*het css cho menu*/
+
+
+/*css cho slide*/
+.slide1 {
+    width: 100%;
+    height: 100%!important;
+}
+ol.carousel-indicators {
+    bottom: 124px;
+}
+
+.slide2 {
+    width: 100%;
+    height: 725px;
+}
+.slide3 {
+    width: 100%;
+    height: 100%;
+}
+.carousel-item {
+    width: 100%;
+    height: 725px;
+}
+img.next {
+    position: absolute;
+    right: 50px;
+    top: 40%;
+}
+
+img.prev {
+    position: absolute;
+    top: 40%;
+    left: 50px;}
+
+
+
+    /*css cho caption carosel*/
+
+
+    .spain {
+    font-family: lato;
+    font-size: 16px;
+    color: #767676;
+    margin-left: 259px;
+}
+
+.exp {
+    font-family: roboto;
+    font-size: 24px;
+    color: #db4f44;
+    font-weight: bold;
+    margin-left: 173px;
+}
+
+.come {
+    font-family: lato;
+    font-size: 16px;
+    color: #767676;
+    margin-left: -104px;
+}
+
+.slide{position: relative;height: 500px;}
+
+.slide-textto {
+    font-family: alice;
+    font-size: 32px;
+    color: #d3d3d3;
+    margin-left: 145px;
+}
+
+.slide-textnho {
+    font-family: lato;
+    color: #d3d3d3;
+    font-size: 12px;
+    font-weight: 300;
+}
+.carousel-caption {
+    left: 55%;
+    top: 10%;
+}
+.carousel-caption.caption-2 {
+    left: -46%;
+    top: 10%;
+}
+.datban {
+    background-image: url(../images/index/datban.png);
+    background-size: cover;
+    width: 790px;
+    height: 154px;
+    margin: auto;
+    position: absolute;z-index: 10;
+    left: 50%;
+    bottom: 0;
+    transform:translate(-50%,80%);
+}
+.carousel-indicators li{border-color: rgb(219,79,68); position: relative;top: 60px;}
+.carousel-indicators .active{background-color:rgb(219,79,68);  }
+
+    /*het css cho slide*/
+    
+
+
+    /*css cho slide-2*/
+
+
+.datban ul li {
+    list-style: none;
+    color: #767676;
+    font-size: 18px;
+    font-family: lato;
+    margin-left: 16px;
+    padding-top: 2px;
+    transition:0.4s;
+}
+
+    .datban ul li:hover {
+        color: white;
+        cursor: pointer;
+        font-family: roboto;
+        font-weight: bold;
+        font-size: 18px
+    }
+    .sdt {
+    font-family: roboto;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    float: left;
+    }
+
+    .hotline {
+        padding-top: 46px;
+        font-family: roboto;
+        font-weight: bold;
+        font-size: 14px;
+        color: #db4f44;
+    }
+
+    img.iconphone {
+        margin-left: 104px;
+        margin-top: 50px;
+        float: left;
+        margin-right: 11px;
+        width: 44px;
+    }
+
+    .datban ul {
+        float: left;
+    }
+    a.nutbook {
+    margin-left: 136px;
+    margin-top: -9px;
+
+    font-family: lato;
+    font-size: 12px;
+    transition:0.4s;
+    }
+    .slide-2 {
+    width: 100%;   
+    height: 865px;
+    background:#f9f9f9;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 13px;
+    }
+
+    img.tdicon {
+        margin-top: 101px;
+    }
+    .tdto {
+    font-family: alice;
+    font-size: 32px;
+    color: #333333;
+    margin-top: 20px;
+    }
+    .tdnho {
+    font-family: roboto;
+    font-size: 12px;
+    color: #767676;
+    margin-bottom: 40px;
+    }
+
+.tdnho {}
+    img.slide_2 {
+        margin-top: 45px;
+        margin-bottom: 70px;
+    }
+
+a.nutbook2 {
+    /*width: 100%;*/
+    font-family: lato;
+    font-size: 12px;
+    transition:0.4s;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+    p.vua {
+    color: #333333;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 18px;
+}
+    p.nho {
+    color: #767676;
+    font-size: 12px;
+    font-family: roboto;
+    font-weight: 100;
+}
+
+    /*het css cho slide-2*/
+
+    
+/*css cho event*/
+.tdn-monan {
+    color: #505050;
+    font-size: 12px;
+    font-family: lato;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.tdmonan {
+    color: #333333;
+    font-family: lato;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 22px;
+    width: 500px;
+}
+
+.trai {
+    float: left;
+    margin-right: 14px;
+    overflow: hidden;
+}
+
+.trai:hover img.monan {
+    transform: scale(1.2);
+}
+.motkhoi {
+    height: 345px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.43);
+    margin-top: 65px;
+}
+/*het css cho event*/
+
+/*css cho complete*/
+img.de01 {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    width: 137px;
+    right: 5px;
+}
+
+.nenden {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.71);
+    width: 479px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+img.monan-comple:hover  {
+    transform: rotate(180deg);
+}
+
+.khoitrai:hover .nenden {
+    opacity: 1;
+}
+
+.khoitrai {
+    width: 479px;
+    height: 400px;
+    position: relative;
+    float: left;
+    margin-right: 14px;
+    overflow: hidden;
+}
+
+.khoitrai ul li {
+    list-style: none;
+}
+
+img.chamxanh {
+    position: absolute;
+    left: 18px;
+    bottom: 19px;
+}
+a.btn.btn-outline.more {
+    position: absolute;
+    right: 22px;
+    bottom: 6px;
+    z-index: 3;
+    border-color: white;
+    color: white;
+    padding: 5px;
+    transition: 0.4s;
+}
+
+a.btn.btn-outline.more:hover {
+    color: brown;
+    border-color: brown;
+}
+
+i.fa.fa-heart {
+    color: brown;
+    bottom: 14px;
+    position: absolute;
+    left: 264px;
+}
+
+.hot {
+    position: absolute;
+    bottom: 11px;
+    color: white;
+    left: 162px;
+}
+
+img.chamdo {
+    bottom: 19px;
+    position: absolute;
+    left: 145px;
+}
+
+.ve {
+    position: absolute;
+    bottom: 11px;
+    color: white;
+    left: 36px;
+}
+img.cachua {
+    width: 100%;
+    height: 136px;
+    transition: 0.4s;
+}
+
+.is {
+    font-family: roboto;
+    font-size: 10px;
+    color: #a4a4a4;
+    font-weight: 100;
+}
+
+.what {
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 12px;
+    color: #767676;
+}
+
+.tien {
+    font-family: roboto;
+    font-size: 24px;
+    color: #333333;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.motkhoi-2.text-xs-center {
+    width: 193px;
+    float: left;
+    height: 267px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.52);
+    margin-right: 13px;
+}
+
+img.cachua:hover {
+    transform: rotate(360deg);
+}
+
+.start {
+    font-family: roboto;
+    color: #767676;
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding-left: 4px;
+    margin-right: 14px;
+    margin-top: 10px;
+}
+
+.vien {
+    width: 393px;
+    height: 1px;
+    background: #767676;
+    margin-left: 354px;
+}
+
+p.there {
+    color: #767676;
+    font-family: roboto;
+    font-style: italic;
+    font-size: 12px;
+    margin-right: 14px;
+}
+
+a.lunch {
+    font-family: roboto;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 32px;
+    color: #333333;
+    text-align: right;
+    margin-right: 14px;
+}
+
+.khoiphai {
+    width: 1207px;
+    height: 400px;
+}
+.khoiphai2 {
+    width: 619px;
+    height: 400px;
+    float: left;
+    text-align: right;
+}
+
+.khoicantrai {width: 1119px;margin: auto;margin-top: 38px;}
+
+.khoitrai2 ul li {
+    list-style: none;
+}
+
+
+
+
+
+
+/*het css cho complete*/
+
+/*
+khoi dau bep*/
+.ins2 {
+    width: 500px;
+    margin-left: 58px;
+    color: #a4a4a4;
+    font-family: roboto;
+    font-weight: 100;
+}
+
+.davi {
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+img.icon-3 {
+    float: left;
+    margin-right: 30px;
+    margin-top: 43px;
+}
+
+.chef {
+    color: #db4f44;
+    font-family: alice;
+    font-size: 60px;
+    margin-bottom: 27px;
+}
+
+.meet {
+    color: #a4a4a4;
+    font-family: lato;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+img.anhdaubep {
+    position: absolute;
+    bottom: 0;
+    left: 18%;
+}
+
+.daubep {
+    background-image: url(../images/index/bg-2.png);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 640px;
+}
+/*
+user*/
+
+.we {
+    font-family: alice;
+    font-size: 24px;
+    color: #333333;
+    padding-bottom: 28px;
+}
+.ins2 {
+    color: #a4a4a4;
+    margin-bottom: 13px;
+    font-size: 12px;
+    margin: 0;
+    width: 238px;
+    margin-bottom: 12px;
+}
+
+.pro {
+    color: #767676;
+    font-style: italic;
+    font-family: roboto;
+    font-size: 10px;
+}
+
+.cris {
+    font-weight: bold;
+    font-family: roboto;
+    font-size: 16px;
+}
+
+
+
+.phai-3 p {
+    font-family: roboto;
+    font-size: 12px;
+    color: #767676;
+}
+
+.phai-3 {
+    width: 400px;
+    float: left;
+    margin-left: 37px;
+    margin-top: 19px;
+}
+
+.phai-3 h1 {
+    font-family: alice;
+    font-size: 32px;
+}
+
+.gio {
+    margin-left: 10px;
+    color: #767676;
+    font-family: roboto;
+    font-size: 24px;
+}
+
+.in {
+    font-size: 11px;
+    margin-top: 22px;
+    font-family: roboto;
+    color: #767676;
+}
+
+.sub {
+    width: 100%;
+    border: 1px solid brown;
+    padding: 16px;
+    border-radius: 2px;
+    background: #76767624;
+    color: gray;
+    margin-top: 16px;
+    text-align: center;
+    font-family: lato;
+    text-transform: uppercase;
+}
+
+.inp {
+    width: 100%;
+    border: 1px solid gray;
+    padding: 16px;
+    border-radius: 2px;
+    background: #76767624;
+    color: gray;
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+
+p.contac {
+    font-family: roboto;
+    font-weight: 100;
+    color: #767676;
+    font-size: 12px;
+}
+
+h1.cont {
+    font-family: 'Alice', serif;
+    font-size: 32px;
+}
+
+.user p {
+    font-family: roboto;
+    font-weight: 100;
+    font-size: 12px;
+    color: #767676;
+    margin-bottom: 47px;
+}
+
+.user h1 {
+    font-family: 'Alice', serif;
+    font-size: 32px;
+}
+img.icon2-1 {
+    margin-top: 51px;
+    margin-bottom: 27px;
+}
+
+ul.dsfood {
+    list-style: none;
+}
+
+ul.dsfood li {
+    font-size: 15px;
+    line-height: 29.5px;
+    color: #db4f44;
+    font-style: italic;
+}
+/*
+contact*/
+
+.form-group {
+    width: 100%;
+}
+
+input#email {
+    width: 100%;
+    padding: 13px;
+    margin-top: 30px;
+}
+
+.completeyourday {
+    height: 1200px;
+}
+
+.ins {
+    width: 533px;
+    color: #a4a4a4;
+    font-family: roboto;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.noidung {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+.tdnho2 {
+    font-family: roboto;
+    font-size: 12px;
+    color: #767676;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    }
+
+
+.benphai {
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-left: 23px;
+    padding-top: 28px;
+}
+
+img.bentrai {float: left;}
+
+.monday {
+    background: brown;
+    display: inline;
+    color: white;
+    padding: 5px 5px 10px 10px;
+    border-radius: 2px;
+    float: left;
+}
+.saturday {
+    background: brown;
+    display: inline;
+    color: white;
+    padding: 5px 5px 10px 10px;
+    border-radius: 2px;
+}
+
+p.lor {
+    font-family: roboto;
+    font-weight: 100;
+    font-size: 12px;
+    width: 500px;
+}
+
+.visit {
+    font-family: alice;
+    font-size: 32px;
+    color: #333333;
+}
+
+a.submit {
+    width: 100%;
+    margin-top: 31px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 13px;
+}
+
+/*
+fotter*/
+
+/*footer*/
+#map{
+    width: 100%;
+    height: 462px;
+    background-color: darkviolet;
+}
+
+
+.footer {
+    width: 100%;
+    height: 278px;
+    background: #222222;
+    margin: auto;
+    padding-top: 40px;
+    color:#767676;
+}
+.cus {
+    font-family: alice;
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: #c5c5c5;
+}
+.duoi-3 {
+    height: 23px;
+    margin-top: 10px;
+    color: #767676;
+}
+.duoi-3 i.fa{
+    float: left;
+    font-size: 23px;
+    margin-right: 13px;
+    color: brown;
+}
+
+.iconfoot {
+    position: relative;
+    left: 50%;
+    transform:translateX(-20%);
+    color: #c5c5c5;
+}
+
+.iconfoot li {
+    float: left;
+    margin-left: 5px;
+    list-style: none;
+}
+
+.spa{color: #c5c5c5;font-family: 'alice',serif;font-size: 12px;}
+
+.ent{    font-size: 16px;
+    margin-bottom: 16px;}
+.bottomlefty{padding-right: 0;}
+
+
+
+
+    /*css menu cho di dong*/
+@media (max-width: 576px) {
+    *{
+}
+
+input.col-xs-8.form-control {
+    height: 24px;
+}
+
+.formgroup {
+    width: 61px;
+    height: 10p;
+}
+
+p.ent {
+    font-size: 7px;
+}
+
+.duoi-3 {
+    margin: -9px;
+}
+
+.duoi-3 p {margin: 0;float: left;font-size: 5px;margin-left: 5px;margin-top: 2px;}
+
+.duoi-3 i {
+}
+
+i.fa.fa-map-marker {
+    margin: 0;
+    font-size: 10px;
+}
+
+i.fa.fa-phone-square {
+    font-size: 10px;
+    margin: 0;
+    float: left;
+}
+
+i.fa.fa-envelope-o {
+    font-size: 10px;
+    float: left;
+    margin: 0;
+}
+
+.cus {
+    font-size: 8px;
+}
+
+ul.iconfoot {
+    margin-left: -13px;
+    margin-top: -22px;
+}
+
+.iconfoot i {
+    font-size: 8px;
+}
+
+p.spa {
+    font-size: 8px;
+}
+
+.footer img {
+    width: 76px;
+}
+
+div#map {
+    width: 100%;
+    height: 200px;
+}
+
+img.kaka {
+    width: 100px;
+}
+
+.we {
+    font-size: 10px;
+    margin-bottom: -23px;
+}
+
+p.lor {
+    font-size: 5px;
+    width: 203px;
+    margin-bottom: 0;
+}
+
+.visit {
+    font-size: 12px;
+}
+
+.benphai {
+    float: left;
+    width: 213px;
+    padding-top: 5px;
+    margin-left: 7px;
+    height: 141px;
+}
+
+img.bentrai {
+    width: 164px;
+    float: left;
+}
+
+.tdnho2 {
+    font-size: 7px;
+}
+
+.form-group {
+    width: 166px;
+}
+
+.pro {
+    font-size: 7px;
+}
+
+.cris {
+    font-size: 8px;
+}
+
+img.comm {
+    width: 94px;
+}
+
+img.icon6 {
+    width: 56px;
+}
+
+ul.dsfood li {
+    font-size: 11px;
+    line-height: 9px;
+}
+
+.ins2 {
+    font-size: 6px;
+    width: 73px;
+}
+
+img.icon4 {
+    width: 27px;
+}
+
+.user p {
+    font-size: 8px;
+    margin-bottom: 12px;
+}
+
+.user h1 {font-size: 14px;}
+
+img.icon2-1 {
+    width: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.completeyourday {
+    height: 271px;
+}
+
+img.de01 {
+    width: 34px;
+}
+
+.ins {
+    font-size: 5px;
+    margin-left: 10px;
+    width: 180px;
+}
+
+.davi {
+    font-size: 10px;
+}
+
+img.icon-3 {
+    margin-top: 5px;
+    float: left;
+    margin-right: 10px;
+    width: 30px;
+}
+
+.chef {
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.meet {
+    font-size: 10px;
+}
+
+.noidung {
+    right: 20px;
+    top: 21px;
+}
+
+img.anhdaubep {
+    width: 159px;
+    left: 23px;
+}
+
+.daubep {
+    width: 100%;
+    background-size: contain;
+    height: 193px;
+}
+
+.col-xs-12.haha {
+    height: 185px;
+    opacity: 0;
+    visibility: hidden;
+}
+.col-xs-12.hihi {
+   
+    height: 168px;
+}
+
+.is {
+    font-size: 3px;
+}
+
+.what {
+    font-size: 4px;
+}
+
+.tien {
+    font-size: 7px;
+}
+
+img.cachua {height: 31px;}
+
+.motkhoi-2.text-xs-center {
+    width: 50px;
+    height: 74px;
+}
+
+.start {
+    font-size: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+p.there {
+    font-size: 6px;
+    margin-bottom: 2px;
+}
+
+.khoitrai {
+    margin-right: 5px;
+}
+
+a.lunch {
+    font-size: 11px;
+}
+
+i.fa.fa-heart {
+    font-size: 6px;
+    left: 74px;
+    bottom: 6px;
+}
+
+.hot {
+    font-size: 4px;
+    left: 52px;
+    bottom: 5px;
+}
+
+img.chamdo {
+    width: 5px;
+    bottom: 6px;
+    left: 43px;
+}
+
+.ve {
+    font-size: 6px;
+    bottom: 4px;
+    left: 11px;
+}
+
+img.chamxanh {
+    bottom: 7px;
+    left: 4px;
+    width: 5px;
+}
+
+a.btn.btn-outline.more {
+    font-size: 2px;
+    right: 2px;
+    bottom: 3px;
+}
+
+.nenden {
+    width: 120px;
+    height: 21px;
+}
+
+img.monan-comple {
+    width: 120px;
+    height: 122px;
+    position: relative;
+}
+
+.khoitrai {
+    width: 119px;
+    height: 123px;
+}
+
+.khoicantrai {
+    width: 300px;
+    height: 170px;
+    margin-top: -14px;
+}
+
+.motkhoi {
+    margin-top: 11px;
+    height: 106.05px;
+}
+
+.tdn-monan {
+    font-size: 5px;
+    margin-bottom: 3px;
+}
+
+.tdmonan {
+    font-size: 9px;
+    width: 161px;
+    padding-top: 5px;
+}
+
+img.monan {
+    width: 83px;
+}
+
+.trai {
+    width: 100px;
+    margin-right: -10px;
+}
+
+
+a.btn.btn-outline-info.nutbook2 {
+    margin-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    font-size: 4px;
+    padding-bottom: 5px;
+}
+
+p.nho {
+    font-size: 5px;
+    margin-bottom: 1px;
+}
+
+
+
+p.vua {
+    font-size: 10px;
+}
+
+img.slide_2 {
+    width: 319px;
+    margin-top: 23px;
+    margin-bottom: 25px;
+}
+
+.tdnho {
+    font-size: 8px;
+    margin-bottom: 40px;
+}
+
+.tdto {
+    font-size: 14px;
+    margin-top: 9px;
+}
+
+img.tdicon {
+    margin-top: 0;
+    width: 18px;
+}
+
+.datban {
+    opacity: 0;
+    visibility: hidden;
+}
+
+ol.carousel-indicators {
+    bottom: -10px;
+}
+
+.spain {
+    font-size: 8px;
+    margin-left: 198px;
+}
+
+.exp {
+    font-size: 10px;
+}
+
+.come {
+    font-size: 8px;
+    margin-left: 70px;
+}
+
+.slide-textto {
+    font-size: 15px;
+}
+
+.slide-textnho {
+    font-size: 8px;
+    margin-left: 106px;
+}
+
+.carousel-caption {
+    left: 10%;
+    top: 0%;
+}
+.carousel-item {
+    width: 100%;
+    height: 143px;
+}
+
+.carousel-caption.caption-2 {
+    left: -62%;
+    top: 0%;
+}
+
+.signin {
+    margin-left: 34px;
+}
+
+a.nav-link {
+    text-align: center;
+}
+
+img.next {
+    right: 20px;
+    width: 10px;
+}
+
+
+img.prev {
+    width: 10px;
+    left: 10px;
+}
+
+img.logo {
+    position: absolute;
+    top: 10px;
+    right: 50%;
+    width: 80px;
+    margin-right: -40px;
+}
+.event {
+    height: 374px;
+}
+}
+    /*het css menu cho di dong*/
+
+
+
