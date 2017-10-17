@@ -176,7 +176,7 @@ ol.cacnuttron li {
     transition-delay:0;
 }
 
-.huhu{position: relative;border-bottom: none;}
+.huhu{position: relative;border-bottom: none;z-index: 2}
 .huhuhu{
     display: none;
     position: absolute;

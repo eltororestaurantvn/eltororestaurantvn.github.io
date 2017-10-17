@@ -173,9 +173,9 @@ img{width: 100%;}
     transition-delay:0;
 }
 
-#hoverbtn{position: relative;border-bottom: none;}
-#other{
-    display: none;
+.huhu{position: relative;border-bottom: none;z-index: 2}
+.huhuhu{
+     display: none;
     position: absolute;
     top:26px;
     left: 0;
@@ -189,34 +189,10 @@ img{width: 100%;}
     border-top: none;
     height:0;opacity: 0;
 }
-#other li{
+.huhuhu li{
     margin-bottom: 18px;
     margin-top: 0;
 }
-
-
-#hoverbtn2{position: relative;border-bottom: none;}
-#other2{
-    display: none;
-    position: absolute;
-    top:26px;
-    left: 0;
-
-    width: 100px;
-    margin-left: -1px;
-    margin-top: 17px;
-    background: #2c2c2c!important;
-    color: #cbcbcb;
-    border:1px solid white;
-    border-top: none;
-    height:0;opacity: 0;
-}
-#other2 li{
-    margin-bottom: 18px;
-    margin-top: 0;
-}
-
-
 .midicon{
     padding-top: 60px;
     text-align: center;

@@ -205,16 +205,14 @@ ol.cacnuttron li {
 
 /*main css*/
 
-body {
-    background: #f2f2f2;
-}
+
 
 
 .Lunch{
     padding-top: 10px;
 }
 .lunchhead {
-    background-image: url(../images/lunch/icon1.png);
+    background-image: url(../images/dinner/icon1.png);
     background-size: 72px 72px;
     background-repeat: no-repeat;
     background-position: 0 0px;
@@ -230,19 +228,13 @@ body {
 
 .example{
     
-height: 603px;
-    
-background-color: #f2f2f2;
-    
-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
-    
-background-clip: padding-box;
-    
-margin: 0;
-    
-padding: 15px;
-    
-margin-top:72px;
+    height: 603px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    background-clip: padding-box;
+    margin: 0;
+    padding: 15px;
+    margin-top:72px;
 }
 
 
