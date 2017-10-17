@@ -49,7 +49,16 @@ $(window).scroll(function(event) {
       $(".fixed-left").removeClass('opacity-1');
       $(".fixed-right").removeClass('opacity-1');
    }
+if (vitri>400) {
+      $("#fix-one").removeClass('dichlen').addClass('dichxuong');
+      $(".fixed-left").addClass('opacity-1');
+      $(".fixed-right").addClass('opacity-1');
 
+    }else{
+      $("#fix-one").removeClass('dichxuong').addClass('dichlen');
+      $(".fixed-left").removeClass('opacity-1');
+      $(".fixed-right").removeClass('opacity-1');
+   }
 
     onViewport("")
   })
@@ -106,16 +115,7 @@ $("#hoverbtn2_other").mouseenter(function () {
     $("#other2_other").animate({height: "0"},{ duration: 200, queue: false }).animate({opacity: "0"},{ duration: 200, queue: false });
   });
 
-    if (vitri>400) {
-      $("#fix-one").removeClass('dichlen').addClass('dichxuong');
-      $(".fixed-left").addClass('opacity-1');
-      $(".fixed-right").addClass('opacity-1');
-
-    }else{
-      $("#fix-one").removeClass('dichxuong').addClass('dichlen');
-      $(".fixed-left").removeClass('opacity-1');
-      $(".fixed-right").removeClass('opacity-1');
-   }
+    
 })  
 )
  
