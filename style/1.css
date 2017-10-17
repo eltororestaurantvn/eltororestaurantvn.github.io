@@ -962,14 +962,18 @@ fotter*/
 
 
 
+
     /*css menu cho di dong*/
 @media (max-width: 576px) {
     *{
 }
+.slide{height: 148px;}
 
+.slide .carousel-inner img{height: 100%;}
 input.col-xs-8.form-control {
     height: 24px;
 }
+
 
 .formgroup {
     width: 61px;
@@ -1066,6 +1070,15 @@ img.bentrai {
 
 .tdnho2 {
     font-size: 7px;
+}
+
+a.btn.btn-outline-info.submit {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 42px;
 }
 
 .form-group {
@@ -1170,9 +1183,16 @@ img.anhdaubep {
     opacity: 0;
     visibility: hidden;
 }
+
 .col-xs-12.hihi {
    
     height: 168px;
+}
+
+a.btn.btn-outline.more2 {
+    font-size: 2px;
+    margin-top: -12px;
+    padding: 2px;
 }
 
 .is {
@@ -1296,6 +1316,9 @@ img.monan {
     margin-right: -10px;
 }
 
+.slide-2 {
+    height: 342px;
+}
 
 a.btn.btn-outline-info.nutbook2 {
     margin-top: 0px;
@@ -1395,10 +1418,11 @@ a.nav-link {
 img.next {
     right: 20px;
     width: 10px;
+    top: 60px;
 }
 
-
 img.prev {
+    top: 60px;
     width: 10px;
     left: 10px;
 }
@@ -1411,10 +1435,20 @@ img.logo {
     margin-right: -40px;
 }
 .event {
-    height: 374px;
+    height: 600px;
 }
+
+.button.more2{width: 30px;
+    height: 8px;
+    font-size: 7px;
+    ext-align: center;
+    margin-top: -8px;
+    padding-top: 2px;
+    padding-left: 4px;
+    overflow: hidden;}
 }
     /*het css menu cho di dong*/
+
 
 
 
