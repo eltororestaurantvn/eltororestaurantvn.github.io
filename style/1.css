@@ -449,9 +449,7 @@ a.nutbook2 {
     overflow: hidden;
 }
 
-.trai:hover img.monan {
-    transform: scale(1.2);
-}
+
 .motkhoi {
     height: 345px;
     box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.43);
@@ -479,9 +477,6 @@ img.de01 {
     transition: 0.4s;
 }
 
-img.monan-comple:hover  {
-    transform: rotate(180deg);
-}
 
 .khoitrai:hover .nenden {
     opacity: 1;
@@ -583,9 +578,6 @@ img.cachua {
     margin-right: 13px;
 }
 
-img.cachua:hover {
-    transform: rotate(360deg);
-}
 
 .start {
     font-family: roboto;
